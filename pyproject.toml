@@ -2,5 +2,11 @@
 name = "innowise_laboratory"
 version = "0.1.0"
 dependencies = [
+    "aiosqlite>=0.21.0",
     "colorama",
+    "fastapi>=0.124.2",
+    "greenlet>=3.3.0",
+    "pydantic>=2.12.5",
+    "sqlalchemy>=2.0.45",
+    "uvicorn>=0.38.0",
 ]
